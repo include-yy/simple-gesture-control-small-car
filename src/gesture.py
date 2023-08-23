@@ -94,7 +94,7 @@ def main():
 
     soc = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     # soc.connect(('192.168.126.128', 8888))
-    soc.connect(('192.168.126.128', 8888))
+    soc.connect(('127.0.0.1', 8888))
     # open camera
     cap = cv2.VideoCapture(0)
     # hand check object

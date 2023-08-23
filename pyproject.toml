@@ -1,0 +1,16 @@
+[project]
+name = "simple-gesture-control-car"
+version = "v0.1"
+description = "Use Mediapipe to get control command from gesture"
+authors = [
+    {name = "include-yy", email = "969041171@qq.com"},
+]
+dependencies = [
+    "mediapipe>=0.10.3",
+    "opencv-python>=4.8.0.76",
+    "numpy>=1.25.2",
+    "scipy>=1.9.3",
+]
+requires-python = ">=3.11"
+readme = "README.md"
+license = {text = "MIT"}
